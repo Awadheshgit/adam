@@ -9,7 +9,13 @@
 	<name>association-composition-aggregation</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

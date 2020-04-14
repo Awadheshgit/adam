@@ -3,8 +3,13 @@ package org.stacktrace;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
+@RunWith(JUnit4.class)
 public class Test {
-	public static void main(String[] args) {
+	
+	@org.junit.Test
+	public void testStiudent() {
 
 		Student student1 = new Student("Awadhesh", 1001, "IT");
 		Student student2 = new Student("Nitesh", 1002, "IT");
