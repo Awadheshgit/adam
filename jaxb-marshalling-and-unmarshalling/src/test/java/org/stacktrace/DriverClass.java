@@ -45,7 +45,7 @@ public class DriverClass {
 
 		jaxbMarshaller.marshal(employeeMap, System.out);
 		jaxbMarshaller.marshal(employeeMap,
-				new File("E:/codebase/adam/jaxb-marshalling-and-unmarshalling/employees.xml"));
+				new File("E:/codebase/employees.xml"));
 
 	}
 }
