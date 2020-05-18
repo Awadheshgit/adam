@@ -21,6 +21,7 @@ public class SortArrays {
 					arrays[i] = arrays[j];
 					arrays[j] = temp;
 				}
+				
 			}
 		}
 		System.out.println();
