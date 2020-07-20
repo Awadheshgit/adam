@@ -7,7 +7,7 @@ public class Singleton implements Serializable, Cloneable {
 	public static volatile Singleton instance;
 
 	private Singleton() {
-		// no op
+		// no/op
 	}
 
 	public static Singleton getInstance() throws IllegalArgumentException {
