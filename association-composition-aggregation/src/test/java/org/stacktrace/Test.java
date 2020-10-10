@@ -36,6 +36,7 @@ public class Test {
 		List<Department> departments = new ArrayList<Department>();
 		departments.add(it);
 		departments.add(it);
+		departments.add(cs);
 
 		// Creating instance of Institute
 		Institute institute = new Institute("B.tech", departments);
