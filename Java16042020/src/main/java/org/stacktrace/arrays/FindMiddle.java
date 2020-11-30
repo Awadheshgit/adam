@@ -28,5 +28,8 @@ public class FindMiddle {
 		int missingNumber = sumOfAll - sumOfArray;
 		
 		System.out.println("Missing number is: " + missingNumber);
+		
+		sc.close();
 	}
+	
 }
