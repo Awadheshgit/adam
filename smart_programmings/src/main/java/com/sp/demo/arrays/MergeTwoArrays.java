@@ -1,4 +1,4 @@
-package com.sp.demo;
+package com.sp.demo.arrays;
 
 public class MergeTwoArrays {
 	public static void main(String[] args) {
