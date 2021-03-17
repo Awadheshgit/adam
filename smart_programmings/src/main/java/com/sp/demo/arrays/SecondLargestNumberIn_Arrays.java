@@ -22,6 +22,6 @@ public class SecondLargestNumberIn_Arrays {
 			}
 		}
 		
-		System.out.print("second largest number: " + arr[0]);
+		System.out.print("second largest number: " + arr[1]);
 	}
 }
