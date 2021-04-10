@@ -5,7 +5,7 @@ public class InnerClassesDemo {
 
 		// Here we are not creating for runnable interface
 		// We are creating Implements class object
-		Runnable r = new Runnable() {
+		/*Runnable r = new Runnable() {
 
 			@Override
 			public void run() {
@@ -14,6 +14,12 @@ public class InnerClassesDemo {
 					System.out.println("Child Thread");
 				}
 			}
+		};*/
+		Runnable r = () -> {
+			for(int i=0; i<10; i++) {
+			System.out.println("child thread");
+			}
+		
 		};
 		Thread t = new Thread(r);
 		t.start();
