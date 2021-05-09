@@ -1,5 +1,8 @@
 package org.stacktrace.arrays;
 
+import java.sql.Array;
+import java.util.Arrays;
+
 public class SortArrays {
 	public static void main(String[] args) {
 
@@ -16,7 +19,7 @@ public class SortArrays {
 		// Sort the element in acceding order
 		for (int i = 0; i < arrays.length; i++) {
 			for (int j = i + 1; j < arrays.length; j++) {
-				if (arrays[i] < arrays[j]) {
+				if (arrays[i] > arrays[j]) {
 					temp = arrays[i];
 					arrays[i] = arrays[j];
 					arrays[j] = temp;
@@ -30,6 +33,8 @@ public class SortArrays {
 		System.out.println(" After sorting the arrays: ");
 		for (int i = 0; i < arrays.length; i++) {
 			System.out.print(" " + arrays[i]);
+			
 		}
+		
 	}
 }

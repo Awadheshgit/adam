@@ -3,7 +3,7 @@ package com.sp.demo.arrays;
 public class SecondLargestNumberIn_Arrays {
 	public static void main(String[] args) {
 
-		int[] arr = { 6, 8, 2, 4, 3, 1, 5, 7 };
+		int[] arr = { 6, 8, 2, 4, 3};
 
 		int temp;
 

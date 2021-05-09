@@ -3,7 +3,7 @@ package com.sp.demo.arrays;
 public class FindMissingNumberIn_Arrays {
 	public static void main(String[] args) {
 
-		int[] a = { 1, 2, 3, 4, 6, 7 };
+		int[] a = { 1, 2, 3, 4, 6, 8,9 };
 
 		int expeted_no_element = a.length + 1;
 
